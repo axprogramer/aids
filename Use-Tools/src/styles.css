@@ -1,0 +1,22 @@
+:root { color-scheme: light dark; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji"; }
+
+.app { min-height: 100vh; display: grid; grid-template-rows: auto 1fr auto; }
+.navbar { display: flex; align-items: center; justify-content: space-between; padding: 12px 16px; border-bottom: 1px solid #ddd; gap: 12px; }
+.brand { font-weight: 700; text-decoration: none; }
+.nav a { margin-right: 12px; text-decoration: none; }
+.container { max-width: 800px; margin: 0 auto; padding: 16px; }
+.footer { padding: 16px; text-align: center; border-top: 1px solid #ddd; }
+
+.tool-list { list-style: none; padding: 0; }
+.tool-card { display: flex; flex-direction: column; gap: 4px; padding: 12px; border: 1px solid #ddd; border-radius: 8px; text-decoration: none; }
+.tool-title { font-weight: 600; }
+.tool-desc { opacity: 0.8; font-size: 14px; }
+
+.gcd-form { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; align-items: end; }
+.field { display: flex; flex-direction: column; gap: 6px; }
+.buttons { display: flex; gap: 8px; }
+.result { margin-top: 12px; font-weight: 600; }
+.error { color: #c00; margin-top: 8px; }
+.history { margin-top: 8px; }
